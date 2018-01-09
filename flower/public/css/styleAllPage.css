@@ -1,0 +1,84 @@
+div.main{
+  width:1200px;
+  height:850px;
+  margin: auto;
+}
+div.heading{
+  width:1200px;
+  height: 150px;
+  /*margin-left: 100px;*/
+  /*margin-right: 100px;*/
+}
+div.pageContent{
+  width:1200px;
+  height: 500px;
+  /*margin-left: 100px;*/
+  /*margin-right: 100px;*/
+}
+div.flowerImg{
+  height: 100%;
+  width: 800px;
+  float: left;
+}
+div.content{
+  /*margin-right: 200px;*/
+  /*margin-top: 200px;*/
+  height: 600px;
+  width: 300px;
+  padding-top: 100px;
+  padding-left: 100px;
+  float: left;
+}
+div.comment{
+  width:1000px;
+  height:600px;
+  margin-left: 200px;
+  position: relative;
+  font-size: 10px;
+}
+#flower1{
+  height:500px;
+  width:800px;
+  align:left;
+  position: relative;
+};
+#name{
+  width: 100px;
+  height: 40px;
+  list-style-type: disc;
+  position:static;
+}
+h2{
+  color: orange;
+  margin-right:200px;
+}
+div.info{
+  width:1000px;
+  height:600px;
+  margin-left: 200px;
+  position: relative;
+}
+
+#image1{
+  width: 500px;
+  height: 400px;
+  align: left;
+  position: relative;
+}
+#para1{
+  width: 300px;
+  height: 400px;
+  position:relative;
+}
+div.pic_para{
+  width:350px;
+  height:500px;
+  margin-right: 100px;
+  float: right;
+}
+div.book{
+  width:1000px;
+  height:600px;
+  margin-left: 200px;
+  position: relative;
+}

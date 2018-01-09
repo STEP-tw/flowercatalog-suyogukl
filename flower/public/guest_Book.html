@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Guest Book</title>
+    <script src="js/commentDisplayHandler.js" charset="utf-8"></script>
+    <script src="js/commentsData.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/styleAllPage.css">
+  </head>
+  <body onload='displayComments()'>
+    <div class="book">
+      <h1 align='center'><a href="index.html"><<</a> Guest Book</h1>
+      <h4 align='right'><a href="/logout">logout</a><hr></h4>
+      <div class="sub1">
+        <h2>Leave a Comment</h2>
+        <form action='guest_Book.html' method='POST'>
+          <b>Name:</b> <input type="text" name="Name" value=''><br><br>
+          <b>Comment:</b> <textarea type="text" name="Comment" value=''></textarea>
+          <br><br>
+          <input type="submit" value="Submit"><hr>
+        </form>
+        <table>
+          <td><b>DateTime</b></td>
+          <td><b>Name</b></td>
+          <td><b>Comment_List</b></td>
+        </table>
+      </div>
+      <div class="comment"></div>
+    </div>
+  </body>
+</html>

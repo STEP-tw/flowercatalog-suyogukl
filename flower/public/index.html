@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flower Catalog</title>
+    <link rel="stylesheet" href="css/styleAllPage.css">
+    <script type="text/javascript">
+    function hideImage(){
+      document.getElementById('flowerGif').onclick=function(image){
+        image.target.style.visibility='hidden';
+        setTimeout(()=>{return image.target.style.visibility='visible';
+      return;},1000)
+      };
+      return;
+    }
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="heading">
+        <h1 align='center' >Flower Catalog Website</h1><hr>
+        <h2 align='right'>Flower Catalog</h2><hr>
+      </div>
+      <div class="pageContent">
+        <div class="flowerImg">
+          <img id='flower1' src="img/freshorigins.jpg" >
+        </div>
+        <div class="content">
+          <ul id=name >
+            <li><a href="Abeliophyllum.html"><strong>Abeliophyllum</strong></a></li>
+            <li><a href="Ageratum.html"><strong>Ageratum</strong></a></li>
+          </ul><br><br>
+          <img id='flowerGif' onclick="hideImage()" src="img/animated-flower-image.gif"  alt="animated-flower-image"/>
+          <br>
+          <a href="guest_Book" >Guest book</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
